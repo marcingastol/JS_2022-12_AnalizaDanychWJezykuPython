@@ -5,7 +5,8 @@ import numpy as np
 
 a = np.random.randint(1,100,(6,7))
 print(a)
-print(a[::-1])
+print(" ")
+print(a[::-1,::-1])
 
 ############################################
 # 2. Stwórz program, który zwraca liczby większe niż 50 w zadanej tablicy 'a'
